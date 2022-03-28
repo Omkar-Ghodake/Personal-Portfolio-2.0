@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Omkar-Ghodake-s-Personal-Portfolio/static/css/main.52d5d8df.css",
-    "main.js": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/main.92a14cbe.js",
+    "main.css": "/Omkar-Ghodake-s-Personal-Portfolio/static/css/main.1fb02c3e.css",
+    "main.js": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/main.c9dd047f.js",
     "static/js/787.fb771931.chunk.js": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/news-monkey.mp4": "/Omkar-Ghodake-s-Personal-Portfolio/static/media/news-monkey.0a2f5a2727a61d65f17d.mp4",
     "static/media/personal-portfolio.mp4": "/Omkar-Ghodake-s-Personal-Portfolio/static/media/personal-portfolio.642d2ab6f477bb45effb.mp4",
@@ -31,12 +31,12 @@
     "static/media/css3.svg": "/Omkar-Ghodake-s-Personal-Portfolio/static/media/css3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html5.svg": "/Omkar-Ghodake-s-Personal-Portfolio/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/reactjs.svg": "/Omkar-Ghodake-s-Personal-Portfolio/static/media/reactjs.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.52d5d8df.css.map": "/Omkar-Ghodake-s-Personal-Portfolio/static/css/main.52d5d8df.css.map",
-    "main.92a14cbe.js.map": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/main.92a14cbe.js.map",
+    "main.1fb02c3e.css.map": "/Omkar-Ghodake-s-Personal-Portfolio/static/css/main.1fb02c3e.css.map",
+    "main.c9dd047f.js.map": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/main.c9dd047f.js.map",
     "787.fb771931.chunk.js.map": "/Omkar-Ghodake-s-Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d5d8df.css",
-    "static/js/main.92a14cbe.js"
+    "static/css/main.1fb02c3e.css",
+    "static/js/main.c9dd047f.js"
   ]
 }

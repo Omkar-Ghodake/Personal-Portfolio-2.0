@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Redressed&display=swap);
+
+:root {
+	--primary-color: #ffffff;
+	--secondary-color: #000000;
+	--tertiary-color: #72B626;
+	--quaternary-color: #666666;
+	--quinary-color: #EEEEEE;
+	--senary-color: #67992e;
+	--text-bg: grey;
+	--card-bg: rgba(255, 255, 255, 0.3);
+	--card-boxShadow: rgba(0, 0, 0, 0.1);
+	--card-boxShadow-2: rgba(0, 0, 0, 0.19);
+	--card-bg: #fafafacc;
+}
+
+.dark-theme {
+	--primary-color: #242323;
+	--secondary-color: #fff;
+	/* --tertiary-color: #bb86fc; */
+	--tertiary-color: #ffb400;
+	--quaternary-color: #EEEEEE;
+	--quinary-color: #666666;
+	--senary-color: #dd9c03;
+	--text-bg: #191c24;
+	--card-bg: rgba(17, 25, 40, 0.75);
+	--card-boxShadow: rgba(255, 255, 255, 0.2);
+	--card-boxShadow: rgba(0, 0, 0, 0.1);
+	--card-boxShadow-2: rgba(0, 0, 0, 0.19);
+	--card-bg: #252525;
+}
+
+body {
+	height: 100vh;
+	color: var(--quaternary-color) !important;
+	background-color: var(--primary-color) !important
+}
+
+
+a {
+	color: inherit !important;
+}
+
+.change-color-tertiary {
+	color: var(--tertiary-color) !important
+}
+
+.page-title-size {
+	font-size: 2.5rem !important;
+}
+
+.tertiary-anchor {
+	color: var(--tertiary-color) !important;
+}
+.tertiary-anchor:hover {
+	color: var(--senary-color) !important;
+}
+
+.blue-anchor {
+	color: #0D6EFD !important;
+}
+.blue-anchor:hover {
+	color: #095cd8 !important;
+}
+
+body {
+	font-family: Raleway, sans-serif;
+}
+
+.card {
+	background-color: transparent !important;
+}
+
+.sub-heading {
+	font-size: x-large;
+}
+
+.border-5 {
+	border-radius: 5px !important;
+}
+
+.border-8 {
+	border-radius: 8px !important;
+}
+
+.border-10 {
+	border-radius: 10px !important;
+}
+
+.border-12 {
+	border-radius: 12px !important;
+}
+
+.card-shadow {
+	box-shadow: 0 4px 8px 0 var(--card-boxShadow), 0 8px 25px 0 var(--card-boxShadow-2) !important;
+}
+
+.card-shadow-hover {
+	box-shadow: 0 4px 8px 0 var(--card-boxShadow), 0 8px 25px 0 var(--card-boxShadow-2) !important;
+	transition: transform 0.3s ease-in-out !important;
+}
+
+.card-shadow-hover:hover {
+	transform: scale(1.1) !important;
+	box-shadow: 0 5px 15px var(--card-boxShadow) !important;
+}
+
+.card, table {
+	background-color: var(--card-bg) !important;
+	cursor: pointer !important;
+}
+
+table td {
+	color: var(--secondary-color) !important;
+}
+
+table th {
+	color: var(--tertiary-color) !important;
+}

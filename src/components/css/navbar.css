@@ -1,0 +1,96 @@
+nav {
+	border-bottom: 1px solid var(--tertiary-color);
+}
+
+.break-word {
+	word-wrap: break-word
+}
+
+a {
+	text-decoration: none !important
+}
+
+.navbar {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.075);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.change-color-tertiary {
+	color: var(--tertiary-color) !important
+}
+
+.fa-bars {
+	color: var(--tertiary-color)
+}
+
+.logo {
+	width: 9rem
+}
+
+.navbar-toggler-icon {
+	background-color: var(--tertiary-color) !important;
+	color: #000
+}
+
+.theme-icon-contain {
+	width: 100%;
+}
+
+.theme-icon-contain :hover {
+	background-color: var(--tertiary-color) !important;
+	color: var(--primary-color) !important;
+}
+
+.theme-icon {
+	cursor: pointer;
+	min-height: 1.9rem;
+	max-height: 1.9rem;
+	background-color: var(--primary-color) !important;
+	border: 1px solid var(--tertiary-color);
+	color: var(--tertiary-color);
+	border-radius: 1rem;
+}
+
+
+.nav-link {
+	color: var(--quaternary-color) !important;
+	background-color: var(--quinary-color);
+	border: 1px solid var(--quinary-color);
+	margin: 1rem 3rem;
+	border-radius: 3rem;
+	width: 6rem;
+	text-align: center;
+	cursor: pointer
+}
+
+.current {
+	color: var(--primary-color) !important;
+	background-color: var(--tertiary-color);
+	border: 1px solid var(--tertiary-color)
+}
+
+.nav-link:hover {
+	background-color: var(--primary-color)
+}
+
+.current:hover {
+	color: var(--tertiary-color) !important;
+	background-color: var(--primary-color) !important
+}
+
+@media screen and (max-width:992px) {
+	.theme-icon {
+		margin-left: 5.2rem;
+		text-align: left
+	}
+}
+
+@media screen and (min-width:992px) {
+	.theme-icon {
+		margin: auto
+	}
+}

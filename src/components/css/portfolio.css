@@ -1,0 +1,36 @@
+.skills-image {
+	height: 30px !important;
+	width: 50%;
+}
+
+.skills-card {
+	color: var(--quinary-color) !important;
+}
+
+.progress {
+	background-color: #666666;
+}
+
+.progress-bar {
+	background-color: var(--tertiary-color) !important;
+	color: var(--primary-color);
+}
+
+.read-description-btn {
+	color: var(--tertiary-color) !important;
+	border: 1px solid var(--tertiary-color) !important;
+	background-color: transparent !important;
+}
+.read-description-btn:hover {
+	color: var(--primary-color) !important;
+	background-color: var(--tertiary-color) !important;
+}
+
+.desc-card {
+	color: var(--secondary-color) !important;
+	background-color: transparent !important;
+}
+
+.tool-img {
+	height: 4rem !important;
+}

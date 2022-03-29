@@ -1,0 +1,15 @@
+.about-card-head {
+	font-size: 2.5rem !important;
+	color: var(--tertiary-color) !important;
+}
+
+.about-card-body {
+	font-size: large !important;
+}
+
+.about-card {
+	height: 10rem !important;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+}

@@ -1,0 +1,33 @@
+.home-main {
+	display: flex;
+}
+
+.my-name {
+	color: var(--tertiary-color);
+	padding: 5px 10px;
+	font-family: Redressed, cursive
+}
+
+.my-field {
+	font-family: Raleway, sans-serif
+}
+
+.my-description {
+	font-family: Montserrat, sans-serif
+}
+
+.my-description, .my-field {
+	color: var(--quaternary-color);
+	padding: 5px 10px
+}
+
+.myImage {
+	height: 20rem !important;
+}
+
+
+@media screen and (max-width: 992px) {
+	.home-main {
+		flex-direction: column-reverse;
+	}
+}

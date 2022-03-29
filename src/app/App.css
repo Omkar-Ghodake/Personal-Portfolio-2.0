@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Redressed&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
 
 :root {
 	--primary-color: #ffffff;
@@ -15,7 +16,7 @@
 }
 
 .dark-theme {
-	--primary-color: #242323;
+	--primary-color: #2b2c30;
 	--secondary-color: #fff;
 	/* --tertiary-color: #bb86fc; */
 	--tertiary-color: #ffb400;
@@ -24,8 +25,7 @@
 	--senary-color: #dd9c03;
 	--text-bg: #191c24;
 	--card-bg: rgba(17, 25, 40, 0.75);
-	--card-boxShadow: rgba(255, 255, 255, 0.2);
-	--card-boxShadow: rgba(0, 0, 0, 0.1);
+	--card-boxShadow: rgba(0, 0, 0, 0.7);
 	--card-boxShadow-2: rgba(0, 0, 0, 0.19);
 	--card-bg: #252525;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 .card, table {
-	background-color: var(--card-bg) !important;
+	background-color: var(--primary-color) !important;
 	cursor: pointer !important;
 }
 

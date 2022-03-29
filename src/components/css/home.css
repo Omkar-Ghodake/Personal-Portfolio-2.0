@@ -5,7 +5,7 @@
 .my-name {
 	color: var(--tertiary-color);
 	padding: 5px 10px;
-	font-family: Redressed, cursive
+	font-family: 'Montserrat Subrayada', sans-serif !important;
 }
 
 .my-field {

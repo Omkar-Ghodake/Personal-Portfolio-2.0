@@ -23,7 +23,7 @@ const Navbar = () => {
 					aria-label="Toggle navigation"><i className="fa-solid fa-bars"></i></button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-							<li className="nav-item"><Link className={`nav-link ${location.pathname === '/Omkar-Ghodake-s-Personal-Portfolio' && "current"}`} to="/Omkar-Ghodake-s-Personal-Portfolio">Home</Link></li>
+							<li className="nav-item"><Link className={`nav-link ${location.pathname === '/' && "current"}`} to="/">Home</Link></li>
 							<li className="nav-item"><Link className={`nav-link ${location.pathname === '/about' && "current"}`} to="/about">About</Link></li>
 							<li className="nav-item"><Link className={`nav-link ${location.pathname === '/portfolio' && "current"}`} to="/portfolio">Portfolio</Link></li>
 							<li className="nav-item"><Link className={`nav-link ${location.pathname === '/contact' && "current"}`} to="/contact">Contact</Link></li>

@@ -26,7 +26,7 @@ function App() {
                 <BrowserRouter>
                   <Navbar />
                   <Routes>
-                    <Route path='/Omkar-Ghodake-s-Personal-Portfolio' element={<Home />} />
+                    <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />

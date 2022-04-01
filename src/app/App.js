@@ -14,6 +14,7 @@ import ImageState from '../context/images/ImageState';
 import VideoState from '../context/videos/VideoState';
 import ContactInfoState from '../context/contactInfo/ContactInfoState';
 import StatsState from '../context/stats/StatsState';
+import InternshipState from '../context/internships/InternshipState';
 
 function App() {
   return (
@@ -22,17 +23,19 @@ function App() {
         <ImageState>
           <StatsState>
             <ContactInfoState>
-              <ThemeState>
-                <BrowserRouter>
-                  <Navbar />
-                  <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='/about' element={<About />} />
-                    <Route path='/portfolio' element={<Portfolio />} />
-                    <Route path='/contact' element={<Contact />} />
-                  </Routes>
-                </BrowserRouter>
-              </ThemeState>
+              <InternshipState>
+                <ThemeState>
+                  <BrowserRouter>
+                    <Navbar />
+                    <Routes>
+                      <Route path='/' element={<Home />} />
+                      <Route path='/about' element={<About />} />
+                      <Route path='/portfolio' element={<Portfolio />} />
+                      <Route path='/contact' element={<Contact />} />
+                    </Routes>
+                  </BrowserRouter>
+                </ThemeState>
+              </InternshipState>
             </ContactInfoState>
           </StatsState>
         </ImageState>

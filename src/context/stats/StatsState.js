@@ -3,7 +3,7 @@ import StatsContext from './StatsContext';
 
 const StatsState = (props) => {
 
-	const [stats, setStats] = useState([
+	const [stats] = useState([
 		{ head: 'TE', body: 'Year Of Engineering' },
 		{ head: 'IT', body: 'Branch Of Engineering' },
 		{ head: '1', sup: '+', body: 'Years Of Experience' },

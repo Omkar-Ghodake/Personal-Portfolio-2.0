@@ -11,7 +11,7 @@ import monkeyApi from '../../components/videos/monkey-api.mp4'
 
 const VideoState = (props) => {
 
-	const [projectVdos, setprojectVdos] = useState([
+	const [projectVdos] = useState([
 		{
 			source: personalPortfolio,
 			id: 'vdo1',

@@ -3,7 +3,7 @@ import ContactInfoContext from './ContactInfoContext';
 
 const ContactInfoState = (props) => {
 
-	const [contactInfo, setContactInfo] = useState([
+	const [contactInfo] = useState([
 		{ icon: 'fa-solid fa-location-dot', name: 'City', title: 'Pune, Maharashtra - 411046', url: 'https://goo.gl/maps/b92Wg7PLqmLZ54MH9' },
 		{ icon: 'fa-solid fa-envelope', name: 'Email', title: 'omkar.a.g.78@gmail.com', mailId: 'omkar.a.g.78@gmail.com' },
 		{ icon: 'fa-brands fa-github', name: 'GitHub', title: 'Omkar-Ghodake', url: 'https://github.com/Omkar-Ghodake' },

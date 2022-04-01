@@ -29,7 +29,7 @@ import fa from '../../components/images/fontawesome.png';
 const ImageState = (props) => {
 
 	// skills images 
-	const [skillImgs, setSkillsImgs] = useState([
+	const [skillImgs] = useState([
 		{ source: html, title: 'HTML', width: 97 },
 		{ source: css, title: 'CSS', width: 90 },
 		{ source: bootstrap, title: 'Bootstrap', width: 85 },
@@ -47,7 +47,7 @@ const ImageState = (props) => {
 	]);
 
 	// tools images
-	const [toolImgs, setToolImgs] = useState([
+	const [toolImgs] = useState([
 		{ source: vsCode, title: 'Visual Studio Code', url: 'https://code.visualstudio.com/' },
 		{ source: eclipse, title: 'Eclipse', url: 'https://www.eclipse.org/' },
 		{ source: pycharm, title: 'Pycharm', url: 'https://www.jetbrains.com/pycharm/' },

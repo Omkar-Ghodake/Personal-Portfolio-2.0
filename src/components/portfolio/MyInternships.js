@@ -1,10 +1,15 @@
 import React, { useContext } from 'react';
-import ThemeContext from '../../context/theme/ThemeContext';
+import InternshipContext from '../../context/internships/InternshipContext';
 
 const MyInternships = () => {
 
-	const contextTheme = useContext(ThemeContext);
-	const { theme } = contextTheme;
+	const contextInternship = useContext(InternshipContext)
+	const { internships } = contextInternship
+
+	let serial = 0
+	const createSerialNum = () => {
+		return ++serial
+	}
 
 	return (
 		<>
@@ -21,36 +26,16 @@ const MyInternships = () => {
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<th scope="row">1</th>
-						<td>Full Stack Web Development</td>
-						<td>Always Sahi Consultancy</td>
-						<td>Feb 8, 2022 <b>-</b> Mar 8, 2022</td>
-					</tr>
-					<tr>
-						<th scope="row">2</th>
-						<td>Full Stack Web Development</td>
-						<td>TwoWaits Technologies Pvt.</td>
-						<td>Mar 15, 2022 <b>-</b> Ongoing</td>
-					</tr>
-					<tr>
-						<th scope="row">3</th>
-						<td>Full Stack Web Development</td>
-						<td>Lets Grow More</td>
-						<td>Mar 19, 2022 <b>-</b> Ongoing</td>
-					</tr>
-					<tr>
-						<th scope="row">4</th>
-						<td>Full Stack Web Development</td>
-						<td>The Sparks Foundation</td>
-						<td>Mar 25, 2022 <b>-</b> Ongoing</td>
-					</tr>
-					<tr>
-						<th scope="row">5</th>
-						<td>...</td>
-						<td>...</td>
-						<td>...</td>
-					</tr>
+					{
+						internships.map((internship) => {
+							return <tr key={internship.company}>
+							<th scope="row">{createSerialNum()}</th>
+							<td>{internship.name}</td>
+							<td>{internship.company}</td>
+							<td>{internship.duration.from} <b>-</b> {internship.duration.to}</td>
+						</tr>
+						})
+					}
 				</tbody>
 			</table>
 		</>

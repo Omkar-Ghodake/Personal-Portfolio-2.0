@@ -15,7 +15,7 @@ const MyTools = () => {
 					{
 						toolImgs.map((tool) => {
 							return <div key={tool.title} className="col-lg-4 col-md-6 mb-3 text-center" style={{ height: '10rem' }}>
-								<a href={tool.url} target='_blank'>
+								<a href={tool.url} target='_blank' rel="noreferrer" >
 									<div className="card tool-card border-8 card-shadow-hover h-100">
 										<div className="card-body">
 											<img className="tool-img h-50" src={tool.source} alt={(tool.title).toUpperCase()} />

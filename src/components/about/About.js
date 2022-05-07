@@ -1,14 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import '../css/about.css';
-import ThemeContext from '../../context/theme/ThemeContext';
 import { Cursor, Typewriter } from 'react-simple-typewriter';
 import MyInfo from './MyInfo';
 import MyStats from './MyStats';
 
 const About = () => {
-
-	const contextTheme = useContext(ThemeContext);
-	const { theme } = contextTheme;
 
 	const words = ['ME'];
 

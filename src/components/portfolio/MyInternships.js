@@ -29,11 +29,11 @@ const MyInternships = () => {
 					{
 						internships.map((internship) => {
 							return <tr key={internship.company}>
-							<th scope="row">{createSerialNum()}</th>
-							<td>{internship.name}</td>
-							<td>{internship.company}</td>
-							<td>{internship.duration.from} <b>-</b> {internship.duration.to}</td>
-						</tr>
+								<th scope="row">{createSerialNum()}</th>
+								<td>{internship.name === '' ? '_____' : internship.name}</td>
+								<td>{internship.company === '' ? '_____' : internship.company}</td>
+								<td>{internship.duration === '' ? '_____' : internship.duration.from + '-' + internship.duration.to}</td>
+							</tr>
 						})
 					}
 				</tbody>

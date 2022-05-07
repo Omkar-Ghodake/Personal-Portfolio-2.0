@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import VideoContext from '../../context/videos/VideoContext';
 
 const MyProjects = () => {
-	
+
 	const contextVideo = useContext(VideoContext);
 	const { projectVdos } = contextVideo;
 
@@ -18,11 +18,11 @@ const MyProjects = () => {
 								<video className='border-8 card-shadow' src={project.source} type="video/mp4" controls width="95%"></video>
 								<h6 className='mt-2'><strong>{project.title}</strong></h6>
 								<div className="my-3">
-									{!(project.website === '') && <a className='blue-anchor' href={project.website} target="_blank">
+									{!(project.website === '') && <a className='blue-anchor' href={project.website} target="_blank" rel="noreferrer" >
 										Website <i className="fa-solid fa-arrow-up-right-from-square"></i>
 									</a>}
 									<br />
-									<a className='blue-anchor' href={project.githubRepo} target="_blank">
+									<a className='blue-anchor' href={project.githubRepo} target="_blank" rel="noreferrer" >
 										GitHub Repository <i className="fa-solid fa-arrow-up-right-from-square"></i>
 									</a>
 								</div>

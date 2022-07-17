@@ -4,10 +4,11 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import loadable from 'react-loadable'
 import Navbar from '../components/Navbar';
 import Home from '../components/home/Home';
 import About from '../components/about/About';
-import Portfolio from '../components/portfolio/Portfolio';
+
 import Contact from '../components/contact/Contact';
 import ThemeState from '../context/theme/ThemeState';
 import ImageState from '../context/images/ImageState';
@@ -15,6 +16,11 @@ import VideoState from '../context/videos/VideoState';
 import ContactInfoState from '../context/contactInfo/ContactInfoState';
 import StatsState from '../context/stats/StatsState';
 import InternshipState from '../context/internships/InternshipState';
+
+const Portfolio = loadable({
+  loader: () => import("../components/portfolio/Portfolio"),
+  loading: () => <div>Loading...</div>
+})
 
 function App() {
   return (

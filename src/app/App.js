@@ -16,10 +16,11 @@ import VideoState from '../context/videos/VideoState';
 import ContactInfoState from '../context/contactInfo/ContactInfoState';
 import StatsState from '../context/stats/StatsState';
 import InternshipState from '../context/internships/InternshipState';
+import Loader from '../components/Loader';
 
 const Portfolio = loadable({
   loader: () => import("../components/portfolio/Portfolio"),
-  loading: () => <div>Loading...</div>
+  loading: () => Loader
 })
 
 function App() {

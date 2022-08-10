@@ -19,7 +19,7 @@ const Home = () => {
 							loop={ 0 } />
 					</h1>
 				</div>
-				<div className="row home-main justify-content-center align-items-center">
+				<div className="row g-4 home-main justify-content-center align-items-center">
 					<div className="col-lg-8 col-md-12 home-cols mx-auto">
 						<div className="card-shadow border-8 p-4">
 							<div className="my-field">

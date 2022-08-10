@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import ImageContext from './ImageContext';
 
 // skills images
+import solidity from '../../components/images/solidity.png';
+import remixIDE from '../../components/images/remix.webpg';
+import ganache from '../../components/images/ganache.jpg';
+import truffleSuite from '../../components/images/truffleSuite.png';
 import html from '../../components/images/html5.svg';
 import css from '../../components/images/css3.svg';
 import bootstrap from '../../components/images/bootstrap5.svg';
@@ -30,17 +34,21 @@ const ImageState = (props) => {
 
 	// skills images 
 	const [skillImgs] = useState([
+		{ source: solidity, title: 'Solidity', width: 97 },
+		{ source: remixIDE, title: 'Remix Eth IDE', width: 97 },
+		{ source: ganache, title: 'Ganache', width: 97 },
+		{ source: truffleSuite, title: 'Truffle Suite', width: 97 },
 		{ source: html, title: 'HTML', width: 97 },
-		{ source: css, title: 'CSS', width: 90 },
-		{ source: bootstrap, title: 'Bootstrap', width: 85 },
+		{ source: css, title: 'CSS', width: 97 },
+		{ source: bootstrap, title: 'Bootstrap', width: 97 },
+		{ source: js, title: 'JavaScript', width: 97 },
+		{ source: reactjs, title: 'React.js', width: 97 },
+		{ source: nodejs, title: 'NodeJs', width: 97 },
+		{ source: express, title: 'Express', width: 97 },
+		{ source: mongodb, title: 'MongoDB', width: 92 },
+		{ source: mongoose, title: 'Mongoose', width: 95 },
 		{ source: sass, title: 'SASS', width: 80 },
-		{ source: js, title: 'JavaScript', width: 80 },
-		{ source: reactjs, title: 'React.js', width: 70 },
-		{ source: nodejs, title: 'NodeJs', width: 70 },
-		{ source: express, title: 'Express', width: 70 },
-		{ source: mongodb, title: 'MongoDB', width: 70 },
-		{ source: mongoose, title: 'Mongoose', width: 70 },
-		{ source: pug, title: 'Pug', width: 50 },
+		{ source: pug, title: 'Pug', width: 80 },
 		{ source: python, title: 'Python', width: 50 },
 		{ source: cpp, title: 'C++', width: 50 },
 		{ source: java, title: 'Java', width: 50 }
@@ -60,8 +68,8 @@ const ImageState = (props) => {
 
 	return (
 		<>
-			<ImageContext.Provider value={{ skillImgs, toolImgs }}>
-				{props.children}
+			<ImageContext.Provider value={ { skillImgs, toolImgs } }>
+				{ props.children }
 			</ImageContext.Provider>
 		</>
 	)

@@ -4,16 +4,16 @@ import StatsContext from './StatsContext';
 const StatsState = (props) => {
 
 	const [stats] = useState([
-		{ head: 'TE', body: 'Year Of Engineering' },
+		{ head: 'BE', body: 'Year Of Engineering' },
 		{ head: 'IT', body: 'Branch Of Engineering' },
 		{ head: '1', sup: '+', body: 'Years Of Experience' },
-		{ head: '10', sup: '+', body: 'Projects Created' },
+		{ head: '20', sup: '+', body: 'Projects Created' },
 	]);
 
 	return (
 		<>
-			<StatsContext.Provider value={{ stats }}>
-				{props.children}
+			<StatsContext.Provider value={ { stats } }>
+				{ props.children }
 			</StatsContext.Provider>
 		</>
 	)

@@ -32,6 +32,21 @@ a {
 	width: 9rem
 }
 
+.theme-icon {
+	background-color: var(--primary-color) !important;
+	border: 1px solid var(--tertiary-color);
+	color: var(--tertiary-color);
+	height: 1.9rem;
+	width: 1.9rem;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.theme-icon:hover {
+	background-color: var(--tertiary-color) !important;
+	color: var(--primary-color) !important;
+}
+
 .navbar-toggler-icon {
 	background-color: var(--tertiary-color) !important;
 	color: #000
@@ -39,23 +54,8 @@ a {
 
 .theme-icon-contain {
 	width: 100%;
+	transition: 0.2s ease-in-out;
 }
-
-.theme-icon-contain :hover {
-	background-color: var(--tertiary-color) !important;
-	color: var(--primary-color) !important;
-}
-
-.theme-icon {
-	cursor: pointer;
-	min-height: 1.9rem;
-	max-height: 1.9rem;
-	background-color: var(--primary-color) !important;
-	border: 1px solid var(--tertiary-color);
-	color: var(--tertiary-color);
-	border-radius: 1rem;
-}
-
 
 .nav-link {
 	color: var(--quaternary-color) !important;

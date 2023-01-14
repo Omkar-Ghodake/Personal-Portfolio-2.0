@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './css/navbar.css';
 import ThemeContext from '../context/theme/ThemeContext';
 import { useLocation } from 'react-router-dom';
+import { useRef } from 'react';
 
 const Navbar = () => {
 
@@ -11,13 +12,15 @@ const Navbar = () => {
 	const contextTheme = useContext(ThemeContext);
 	const { theme, toggleTheme } = contextTheme;
 
+	const navRef = useRef()
+
 	useEffect(() => {
 		document.body.classList.add(`${theme}-theme`);
 	});
 
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg sticky-top">
+			<nav className="navbar navbar-expand-lg sticky-top" ref={ navRef }>
 				<div className="container-fluid"><button className="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation"><i className="fa-solid fa-bars"></i></button>

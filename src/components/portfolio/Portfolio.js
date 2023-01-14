@@ -3,7 +3,7 @@ import { Cursor, Typewriter } from 'react-simple-typewriter';
 import '../css/portfolio.css'
 import MyInternships from './MyInternships';
 import MyProjects from './MyProjects';
-import MyResume from './MyResume';
+// import MyResume from './MyResume';
 import MySkills from './MySkills';
 import MyTools from './MyTools';
 

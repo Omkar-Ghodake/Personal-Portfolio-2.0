@@ -2,3 +2,13 @@
 	transition: 0.3s ease-in-out;
 	scroll-behavior: smooth;
 }
+
+.aboutDash {
+	height: fit-content;
+}
+
+@media only screen and (min-width: 600px) {
+	.aboutDash {
+		max-height: 10rem;
+	}
+}

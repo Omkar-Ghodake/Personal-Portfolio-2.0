@@ -10,7 +10,7 @@ const ContactInfoState = (props) => {
 		{ icon: 'fa-brands fa-linkedin', name: 'LinkedIn', title: 'omkar-ghodake', url: 'https://www.linkedin.com/in/omkar-ghodake/' },
 		{ icon: 'fa-brands fa-twitter', name: 'Twitter', title: 'Omkar Ghodake', url: 'https://twitter.com/omkar__ghodake' },
 		{ icon: 'fa-brands fa-telegram', name: 'Telegram', title: 'Omkar Ghodake', url: 'https://t.me/omkar_ghodake' },
-		{ icon: 'fa-brands fa-instagram', name: 'Instagram', title: 'omkar_1831_', url: 'https://www.instagram.com/omkar_1831_/' },
+		{ icon: 'fa-brands fa-instagram', name: 'Instagram', title: 'omkar_1831_', url: 'https://www.instagram.com/_omkar.ghodake_/' },
 		{ icon: 'fa-brands fa-facebook', name: 'Facebook', title: 'Omkar Ghodake', url: 'https://www.facebook.com/omkar.ghodake.92/' }
 	]);
 

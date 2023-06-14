@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/home.css';
-import myImage from '../images/my-image-0.jpeg';
+import myImage from '../images/my-image-3.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
@@ -10,13 +10,13 @@ const Home = () => {
 	return (
 		<>
 			<div className="container my-5">
-				<div className="my-name" style={ { height: '5rem', width: 'fit-content' } }>
+				<div className="my-name" style={{ height: '5rem', width: 'fit-content' }}>
 					<h1>
 						<Typewriter
-							words={ words }
+							words={words}
 							cursor
-							cursorStyle={ '_' }
-							loop={ 0 } />
+							cursorStyle={'_'}
+							loop={0} />
 					</h1>
 				</div>
 				<div className="row g-4 home-main justify-content-center align-items-center">
@@ -32,7 +32,7 @@ const Home = () => {
 					</div>
 
 					<div className="col-lg-4 col-md-12 home-cols">
-						<img className='myImage card-shadow rounded-circle' src={ myImage } alt="" />
+						<img className='myImage card-shadow rounded-circle' src={myImage} alt="" width={350} />
 					</div>
 				</div>
 			</div>

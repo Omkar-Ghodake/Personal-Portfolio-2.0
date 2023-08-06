@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/home.css';
-import myImage from '../images/my-image-0.jpeg';
+import myImage from '../images/my-image-0.jpg';
 import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
